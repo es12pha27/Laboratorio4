@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Laboratorio4</string>
+    <!-- Fuentes-->
+     <string-array name="fontFamily_array">
+            <item>sans-serif</item>
+            <item>sans-serif-thin</item>
+            <item>sans-serif-light</item>
+            <item>sans-serif-medium</item>
+            <item>sans-serif-black</item>
+            <item>sans-serif-condensed</item>
+            <item>sans-serif-condensed-light</item>
+            <item>cursive</item>
+     </string-array>
+    <string-array name="sizeText_array">
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="backgroundColor_array">
+        <item>Black</item>
+        <item>White</item>
+        <item>Pink</item>
+    </string-array>
+
+
+
 </resources>

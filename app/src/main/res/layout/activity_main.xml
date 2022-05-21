@@ -7,29 +7,36 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/backall"
         android:layout_width="409dp"
         android:layout_height="729dp"
         android:orientation="vertical"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
         <LinearLayout
+            android:id="@+id/back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="15dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/tag1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Periodo Academico" />
+                android:padding="10dp"
+                android:text="Periodo Academico"
+                android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/box1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName" />
@@ -40,19 +47,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="15dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/tag2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Escuela Profesional" />
+                android:padding="10dp"
+                android:text="Escuela Profesional"
+                android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/box2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName" />
@@ -63,19 +74,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="15dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/tag3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Codigo de Asignatura" />
+                android:padding="10dp"
+                android:text="Codigo de Asignatura"
+                android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/box3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName" />
@@ -86,19 +101,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="15dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/tag4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Nombre de la asignatura" />
+                android:padding="10dp"
+                android:text="Nombre de la asignatura"
+                android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/box4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName" />
@@ -109,19 +128,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="15dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/tag5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Semestre" />
+                android:padding="10dp"
+                android:text="Semestre"
+                android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/box5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName" />
@@ -131,19 +154,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="15dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/tag6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:text="Duracion" />
+                android:padding="10dp"
+                android:text="Duracion"
+                android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/box6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPersonName" />
@@ -153,82 +180,106 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
             android:layout_weight="1"
-            android:elevation="10dp"
+            android:elevation="50dp"
+            android:gravity="center|top"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
                 android:text="Configuracion"
-                android:textSize="20sp"
+                android:textSize="17sp"
                 android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="10dp">
+                android:padding="1dp">
 
                 <TextView
                     android:id="@+id/textView7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:padding="10dp"
                     android:text="Color Fondo"
-                    android:textSize="17sp" />
+                    android:textSize="15sp" />
 
-                <Spinner
-                    android:id="@+id/spinner_colorFondo"
+                <EditText
+                    android:id="@+id/color"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="10dp">
+                android:padding="1dp">
 
                 <TextView
                     android:id="@+id/textView8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:padding="10dp"
                     android:text="Estilo Fuente"
-                    android:textSize="17sp" />
+                    android:textSize="15sp" />
 
-                <Spinner
-                    android:id="@+id/spinner_EstiloFuente"
+                <EditText
+                    android:id="@+id/style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="10dp">
+                android:padding="1dp">
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:padding="10dp"
                     android:text="Tamaño Fuente"
-                    android:textSize="17sp" />
+                    android:textSize="15sp" />
 
-                <Spinner
-                    android:id="@+id/spinner_TamanioFuente"
+                <EditText
+                    android:id="@+id/size"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
             </LinearLayout>
+
+            <Button
+                android:id="@+id/save_config"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Guardar Configuracion"
+                android:textSize="15sp" />
+
         </LinearLayout>
     </LinearLayout>
 
